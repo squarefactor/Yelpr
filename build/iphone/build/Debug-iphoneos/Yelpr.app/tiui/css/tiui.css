@@ -1,0 +1,271 @@
+/*****************************
+ * element styles
+ *****************************/
+body
+{
+	font-family:"Helvetica Neue";
+}
+
+input[type=text][type=password]
+{
+	background:url(../images/input.png) no-repeat stretch;
+	border:none;
+	font-size:15px;
+}
+select
+{
+	font-size:15px;
+}
+
+/*****************************
+ * system property background
+ *****************************/
+.iPhone.property_background
+{
+	background:url(../images/stripes.png) repeat-y;
+}
+
+/*****************************
+ * progress bar
+ *****************************/
+.iPhone .progress_bar
+{
+	background:url(../images/progress_container2.png) repeat-x;
+	position:relative;
+	height:12px;
+	z-index:1;
+	width:280px;
+}
+.iPhone  .value
+{
+	background:url(../images/progress_bar2.png) repeat-x;
+	position:relative;
+	z-index:2;
+	height:12px;
+	width:0;	
+	border-left:1px solid #5b90c5;
+	border-right:1px solid #5b90c5;
+}
+
+/*****************************
+ * label text
+ *****************************/
+.iPhone .label
+{
+	color:#4c566c;
+	text-shadow: 1px 1px 1px #fff;
+	font-size:13px;
+	
+}
+.iPhone .label.bold
+{
+	font-weight:bold;
+	font-size:16px;
+}
+
+/*****************************
+ * switcher
+ *****************************/
+.iPhone .switch_container
+{
+	width:94px;
+	overflow:hidden;
+	height:27px;
+}
+.iPhone .switch
+{
+	width:188px;
+	height:27px;
+	position:relative;
+	-webkit-transition-property: right;
+	-webkit-transition-duration: 250ms;
+}
+.iPhone .switch_on
+{
+	background:url(../images/switch_on_whole.png) no-repeat;
+	height:27px;
+	width:94px;
+	float:left;
+}
+.iPhone .switch_off
+{
+	background:url(../images/switch_off_whole.png) no-repeat;
+	height:27px;
+	width:94px;
+	float:left;
+}
+
+/*****************************
+ * Grouped View
+ *****************************/
+.iPhone .grouped_view
+{
+	background-color:#fff;
+	-webkit-border-top-right-radius: 10px;
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;	
+}
+
+.iPhone .grouped_view .top
+{
+	-webkit-border-top-right-radius: 10px;
+	-webkit-border-top-left-radius: 10px;
+	border-top:1px solid #adadad;
+	border-left:1px solid #adadad;
+	border-right:1px solid #adadad;
+
+}
+.iPhone .grouped_view .bottom
+{
+	-webkit-border-bottom-right-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	border-bottom:1px solid #adadad;
+	border-left:1px solid #adadad;
+	border-right:1px solid #adadad;
+}
+.iPhone .grouped_view .single_row
+{
+	border:1px solid #adadad;
+	-webkit-border-bottom-right-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-webkit-border-top-left-radius: 10px;
+	
+}
+.iPhone .grouped_view .row
+{
+	height:40px;
+	line-height:40px;
+	font-weight:bold;
+	border-bottom:1px solid #adadad;
+	padding-left:10px;
+	font-size:17px;
+	border-left:1px solid #adadad;
+	border-right:1px solid #adadad;
+	position:relative;
+	-webkit-transition-property: background-color;
+	-webkit-transition-duration: 350ms;
+}
+.iPhone .grouped_view .row .input
+{
+	position:absolute;
+	left:90px;
+	top:6px;
+}
+.iPhone .grouped_view input[type=text]
+{
+	background-color:#fff;
+	color:#385487;
+	font-weight:normal;
+	-webkit-appearance: none; 
+	-webkit-border-radius: 0 0;
+	font-size:15px;
+	border:none;
+}
+
+.iPhone .grouped_view .row .select
+{
+	position:absolute;
+	right:5px;
+	color:#385487;
+	font-weight:normal;
+	background:url(../images/list_arrow.png) no-repeat  center right;
+}
+
+.iPhone .grouped_view .row .readonly
+{
+	position:absolute;
+	right:10px;
+	color:#385487;
+	font-weight:normal;
+}
+
+.iPhone .grouped_view .row .active
+{
+	color:#385487;
+}
+.iPhone .grouped_view .row .button
+{
+	text-align:center;
+}
+
+.iPhone .grouped_view .row.row_click
+{
+	background:#194fdb url(../images/selected_40.png) repeat-x;
+	color:#ffffff;
+	height:40px;
+	
+}
+.iPhone .grouped_view .row .option_selected
+{
+	position:absolute;
+	right:10px;
+	top:12px;
+	height:15px;
+	width:15px;
+	background:url(../images/check_blue.png) no-repeat;
+}
+.iPhone .grouped_view .row .option_press_check
+{
+	position:absolute;
+	right:10px;
+	top:12px;
+	height:15px;
+	width:15px;
+	background:url(../images/check_white.png) no-repeat;
+}
+.iPhone .grouped_view .row .option_press_text
+{
+	color:#fff;
+}
+/*****************************
+ * Table View
+ *****************************/
+.iPhone .table_view
+{
+	background-color:#fff;
+	height:45px;
+	border-bottom:1px solid #e0e0e0;
+	position:relative;
+	font-size:21px;
+	line-height:45px;
+	color:#000;
+	font-weight:bold;
+	padding-left:10px;
+}
+.iPhone .table_view .arrow
+{
+	position:absolute;
+	right:10px;
+	top:16px;
+	height:13px;
+	width:9px;
+	background:url(../images/list_arrow.png) no-repeat;
+}
+.iPhone .table_view .arrow_touch
+{
+	position:absolute;
+	right:10px;
+	top:16px;
+	height:13px;
+	width:9px;
+	background:url(../images/list_arrow_white.png) no-repeat;
+	
+}
+
+.iPhone .table_view .detail
+{
+	position:absolute;
+	right:0px;
+	top:8px;
+	height:29px;
+	width:31px;
+	background:url(../images/list_detail.jpg) no-repeat;
+}
+.iPhone .table_view.row_click
+{
+	background:#194fdb url(../images/selected_45.png) repeat-x;
+	color:white;
+	height:45px;
+}

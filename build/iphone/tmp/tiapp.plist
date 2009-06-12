@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>id</key>
+	<string>com.titaniumapp.yelper</string>
+	<key>name</key>
+	<string>Yelpr</string>
+	<key>version</key>
+	<string>0.1</string>
+	<key>startup</key>
+	<array>
+		<dict>
+			<key>backgroundcolor</key>
+			<string>#efefef</string>
+			<key>navBarTint</key>
+			<string>red</string>
+			<key>icon</key>
+			<string>images/location.png</string>
+			<key>title</key>
+			<string>Nearby</string>
+			<key>id</key>
+			<string>Nearby</string>
+			<key>url</key>
+			<string>index.html</string>
+		</dict>
+		<dict>
+			<key>backgroundcolor</key>
+			<string>#efefef</string>
+			<key>navBarTint</key>
+			<string>red</string>
+			<key>icon</key>
+			<string>images/search.png</string>
+			<key>title</key>
+			<string>Search</string>
+			<key>id</key>
+			<string>search</string>
+			<key>url</key>
+			<string>search.html</string>
+		</dict>
+	</array>
+	<key>modules</key>
+	<dict>
+		<key>geo</key>
+		<real>0.4</real>
+		<key>ui</key>
+		<real>0.4</real>
+		<key>mobile</key>
+		<real>0.4</real>
+		<key>properties</key>
+		<real>0.4</real>
+		<key>system</key>
+		<real>0.4</real>
+		<key>iphone</key>
+		<real>0.4</real>
+		<key>net</key>
+		<real>0.4</real>
+		<key>platform</key>
+		<real>0.4</real>
+		<key>media</key>
+		<real>0.4</real>
+	</dict>
+</dict>
+</plist>
